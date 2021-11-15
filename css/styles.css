@@ -1,0 +1,233 @@
+/* цвет фона #ffffff */
+/* основной цвет текста #757575 */
+/* вторчний чвет текста #212121 */
+/* акцент #2196F3 */
+/* вторичный цвет фона #2F303A */
+/* цвет фона секции Команда #F5F4FA */
+/* цвет ссылок в футтере rgba(255, 255, 255, 0.6); */
+/* цвет фильтров #F5F4FA */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #2f303a;
+  --team-bgc: #f5f4fa;
+  --filters-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-bgc);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Site logo */
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+/* .logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+} */
+.fp-logo {
+  color: var(--accent-color);
+}
+
+/* Site navigation */
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.cureent {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+.contacts .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero section */
+
+.hero {
+  background-color: var(--secondary-bgc);
+}
+.hero-title {
+  color: var(--primary-bgc);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--primary-bgc);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--primary-bgc);
+  color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Features */
+.features .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.text {
+  line-height: 1.71;
+}
+
+/* Work */
+
+/* Team */
+.team-section {
+  background-color: var(--team-bgc);
+}
+
+.member {
+  background-color: var(--primary-bgc);
+}
+
+.name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* Footer */
+.footer-section {
+  background-color: var(--secondary-bgc);
+}
+.logo-footer {
+  color: var(--primary-bgc);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+/* .logo-footer:focus,
+.logo-footer:hover {
+  color: var(--accent-color);
+} */
+.address {
+  color: var(--primary-bgc);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+}
+.footer-contacts .link {
+  color: var(--footer-link-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--primary-bgc);
+}
+
+/* Оформление страницы portfolio.html */
+
+/* Filters */
+
+.filters .button {
+  background-color: var(--filters-color);
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filters .button:focus,
+.filters .button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-bgc);
+}
+
+/* Projects */
+
+.project-name {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects .link {
+  text-decoration: none;
+}
+
+.project {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
