@@ -44,6 +44,11 @@ ul {
 
 /* HEADER */
 
+.header-section {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .container {
   width: 1200px;
   outline: solid tomato;
@@ -101,6 +106,7 @@ ul {
 .hero {
   background-color: var(--secondary-bgc);
   text-align: center;
+  /* margin-bottom: 94px; */
 }
 
 .hero-title {
@@ -143,14 +149,22 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /* Features */
+
+.features-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features .title {
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .text {
@@ -159,13 +173,25 @@ ul {
 
 /* Work */
 
+.work-section {
+  padding-bottom: 94px;
+}
+
 /* Team */
 .team-section {
   background-color: var(--team-bgc);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .member {
   background-color: var(--primary-bgc);
+  width: 270px;
+  padding-bottom: 30px;
+}
+
+.photo {
+  margin-bottom: 30px;
 }
 
 .name {
@@ -174,6 +200,7 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .position {
@@ -185,6 +212,8 @@ ul {
 /* Footer */
 .footer-section {
   background-color: var(--secondary-bgc);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   color: var(--primary-bgc);
