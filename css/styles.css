@@ -42,41 +42,58 @@ ul {
   list-style: none;
 }
 
-/* HEADER */
-
-.header-section {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
 .container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   outline: solid tomato;
   margin: 0 auto;
+  background-color: violet;
+}
+
+/* HEADER */
+
+.header-section {
+}
+.flex-header,
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
 /* Site logo */
 .logo {
   color: var(--title-text-color);
+
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
-/* .logo:hover,
-.logo:focus {
-  color: var(--accent-color);
-} */
+
 .fp-logo {
   color: var(--accent-color);
 }
 
 /* Site navigation */
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -91,6 +108,16 @@ ul {
 }
 
 /* Contacts */
+
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .contacts .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -188,7 +215,7 @@ ul {
 
 .member {
   background-color: var(--primary-bgc);
-  width: 270px;
+
   padding-bottom: 30px;
 }
 
